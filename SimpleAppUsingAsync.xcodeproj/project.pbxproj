@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E16F63A21805125003E18CA /* Pod-Async-SDK in Resources */ = {isa = PBXBuildFile; fileRef = 3E16F63921805125003E18CA /* Pod-Async-SDK */; };
+		3E16F6472180513E003E18CA /* Async.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E16F64421805128003E18CA /* Async.framework */; };
 		3E531329211828A7008C489A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E531328211828A7008C489A /* AppDelegate.swift */; };
 		3E53132B211828A7008C489A /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E53132A211828A7008C489A /* MyViewController.swift */; };
 		3E531330211828A9008C489A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E53132F211828A9008C489A /* Assets.xcassets */; };
 		3E531333211828A9008C489A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E531331211828A9008C489A /* LaunchScreen.storyboard */; };
-		3EA5B7D22177341F004D3CBB /* Async-SDK in Resources */ = {isa = PBXBuildFile; fileRef = 3EA5B7D12177341F004D3CBB /* Async-SDK */; };
-		3EA5B7DE21773434004D3CBB /* Async.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EA5B7DB21773423004D3CBB /* Async.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3EA5B7DA21773423004D3CBB /* PBXContainerItemProxy */ = {
+		3E16F64321805128003E18CA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 3EA5B7D321773423004D3CBB /* Async.xcodeproj */;
+			containerPortal = 3E16F63E21805128003E18CA /* Async.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 3ED59C0D211098400026FFF5;
 			remoteInfo = Async;
 		};
-		3EA5B7DC21773423004D3CBB /* PBXContainerItemProxy */ = {
+		3E16F64521805128003E18CA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 3EA5B7D321773423004D3CBB /* Async.xcodeproj */;
+			containerPortal = 3E16F63E21805128003E18CA /* Async.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 3ED59C16211098400026FFF5;
 			remoteInfo = AsyncTests;
@@ -33,14 +33,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E16F63921805125003E18CA /* Pod-Async-SDK */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Pod-Async-SDK"; sourceTree = "<group>"; };
+		3E16F63E21805128003E18CA /* Async.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Async.xcodeproj; path = "Pod-Async-SDK/Async.xcodeproj"; sourceTree = "<group>"; };
 		3E531325211828A7008C489A /* SimpleAppUsingAsync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleAppUsingAsync.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E531328211828A7008C489A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E53132A211828A7008C489A /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 		3E53132F211828A9008C489A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E531332211828A9008C489A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E531334211828A9008C489A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3EA5B7D12177341F004D3CBB /* Async-SDK */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Async-SDK"; sourceTree = "<group>"; };
-		3EA5B7D321773423004D3CBB /* Async.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Async.xcodeproj; path = "Async-SDK/Async.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,20 +48,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EA5B7DE21773434004D3CBB /* Async.framework in Frameworks */,
+				3E16F6472180513E003E18CA /* Async.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E16F63F21805128003E18CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E16F64421805128003E18CA /* Async.framework */,
+				3E16F64621805128003E18CA /* AsyncTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		3E53131C211828A7008C489A = {
 			isa = PBXGroup;
 			children = (
 				3E531327211828A7008C489A /* SimpleAppUsingAsync */,
 				3E531326211828A7008C489A /* Products */,
-				3EA5B7D321773423004D3CBB /* Async.xcodeproj */,
-				3EA5B7D12177341F004D3CBB /* Async-SDK */,
+				3E16F63E21805128003E18CA /* Async.xcodeproj */,
+				3E16F63921805125003E18CA /* Pod-Async-SDK */,
 				3E53135B2118372F008C489A /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -91,15 +100,6 @@
 			children = (
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		3EA5B7D421773423004D3CBB /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3EA5B7DB21773423004D3CBB /* Async.framework */,
-				3EA5B7DD21773423004D3CBB /* AsyncTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,8 +150,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 3EA5B7D421773423004D3CBB /* Products */;
-					ProjectRef = 3EA5B7D321773423004D3CBB /* Async.xcodeproj */;
+					ProductGroup = 3E16F63F21805128003E18CA /* Products */;
+					ProjectRef = 3E16F63E21805128003E18CA /* Async.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -162,18 +162,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		3EA5B7DB21773423004D3CBB /* Async.framework */ = {
+		3E16F64421805128003E18CA /* Async.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Async.framework;
-			remoteRef = 3EA5B7DA21773423004D3CBB /* PBXContainerItemProxy */;
+			remoteRef = 3E16F64321805128003E18CA /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		3EA5B7DD21773423004D3CBB /* AsyncTests.xctest */ = {
+		3E16F64621805128003E18CA /* AsyncTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = AsyncTests.xctest;
-			remoteRef = 3EA5B7DC21773423004D3CBB /* PBXContainerItemProxy */;
+			remoteRef = 3E16F64521805128003E18CA /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -183,9 +183,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E16F63A21805125003E18CA /* Pod-Async-SDK in Resources */,
 				3E531333211828A9008C489A /* LaunchScreen.storyboard in Resources */,
 				3E531330211828A9008C489A /* Assets.xcassets in Resources */,
-				3EA5B7D22177341F004D3CBB /* Async-SDK in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
