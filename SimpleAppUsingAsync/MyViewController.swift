@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import Async
+import FanapPodAsyncSDK
 import SwiftyJSON
 
 class MyViewController: UIViewController {
@@ -164,7 +164,7 @@ class MyViewController: UIViewController {
     
     
     @objc func connectToSocketButtonPressed() {
-        myAsyncObject!.createSucket()
+        myAsyncObject!.createSocket()
     }
     
     @objc func sendPingButtonPressed() {
