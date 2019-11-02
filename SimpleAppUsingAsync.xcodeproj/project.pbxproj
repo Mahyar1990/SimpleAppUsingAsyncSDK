@@ -11,20 +11,20 @@
 		3E53132B211828A7008C489A /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E53132A211828A7008C489A /* MyViewController.swift */; };
 		3E531330211828A9008C489A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E53132F211828A9008C489A /* Assets.xcassets */; };
 		3E531333211828A9008C489A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E531331211828A9008C489A /* LaunchScreen.storyboard */; };
-		3EEF3A58222288C500F8B05C /* FanapPodAsyncSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EEF3A55222288B600F8B05C /* FanapPodAsyncSDK.framework */; };
+		3E7CAEB6236D822A007582CA /* FanapPodAsyncSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E7CAEB3236D8213007582CA /* FanapPodAsyncSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3EEF3A54222288B600F8B05C /* PBXContainerItemProxy */ = {
+		3E7CAEB2236D8213007582CA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 3EEF3A4C222288B600F8B05C /* FanapPodAsyncSDK.xcodeproj */;
+			containerPortal = 3E7CAEAA236D8213007582CA /* FanapPodAsyncSDK.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 3ED59C0D211098400026FFF5;
 			remoteInfo = FanapPodAsyncSDK;
 		};
-		3EEF3A56222288B600F8B05C /* PBXContainerItemProxy */ = {
+		3E7CAEB4236D8213007582CA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 3EEF3A4C222288B600F8B05C /* FanapPodAsyncSDK.xcodeproj */;
+			containerPortal = 3E7CAEAA236D8213007582CA /* FanapPodAsyncSDK.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 3ED59C16211098400026FFF5;
 			remoteInfo = FanapPodAsyncSDKTests;
@@ -38,7 +38,7 @@
 		3E53132F211828A9008C489A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E531332211828A9008C489A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E531334211828A9008C489A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3EEF3A4C222288B600F8B05C /* FanapPodAsyncSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FanapPodAsyncSDK.xcodeproj; path = "../../../Xcode Projects/Pod-Async-iOS-SDK/Pod-Async-iOS-SDK/FanapPodAsyncSDK.xcodeproj"; sourceTree = "<group>"; };
+		3E7CAEAA236D8213007582CA /* FanapPodAsyncSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FanapPodAsyncSDK.xcodeproj; path = "../Pod-Async-iOS-SDK/Pod-Async-iOS-SDK/FanapPodAsyncSDK.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EEF3A58222288C500F8B05C /* FanapPodAsyncSDK.framework in Frameworks */,
+				3E7CAEB6236D822A007582CA /* FanapPodAsyncSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,7 +58,7 @@
 			children = (
 				3E531327211828A7008C489A /* SimpleAppUsingAsync */,
 				3E531326211828A7008C489A /* Products */,
-				3EEF3A4C222288B600F8B05C /* FanapPodAsyncSDK.xcodeproj */,
+				3E7CAEAA236D8213007582CA /* FanapPodAsyncSDK.xcodeproj */,
 				3E53135B2118372F008C489A /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -90,11 +90,11 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3EEF3A4D222288B600F8B05C /* Products */ = {
+		3E7CAEAB236D8213007582CA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3EEF3A55222288B600F8B05C /* FanapPodAsyncSDK.framework */,
-				3EEF3A57222288B600F8B05C /* FanapPodAsyncSDKTests.xctest */,
+				3E7CAEB3236D8213007582CA /* FanapPodAsyncSDK.framework */,
+				3E7CAEB5236D8213007582CA /* FanapPodAsyncSDKTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -147,8 +147,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 3EEF3A4D222288B600F8B05C /* Products */;
-					ProjectRef = 3EEF3A4C222288B600F8B05C /* FanapPodAsyncSDK.xcodeproj */;
+					ProductGroup = 3E7CAEAB236D8213007582CA /* Products */;
+					ProjectRef = 3E7CAEAA236D8213007582CA /* FanapPodAsyncSDK.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -159,18 +159,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		3EEF3A55222288B600F8B05C /* FanapPodAsyncSDK.framework */ = {
+		3E7CAEB3236D8213007582CA /* FanapPodAsyncSDK.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = FanapPodAsyncSDK.framework;
-			remoteRef = 3EEF3A54222288B600F8B05C /* PBXContainerItemProxy */;
+			remoteRef = 3E7CAEB2236D8213007582CA /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		3EEF3A57222288B600F8B05C /* FanapPodAsyncSDKTests.xctest */ = {
+		3E7CAEB5236D8213007582CA /* FanapPodAsyncSDKTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = FanapPodAsyncSDKTests.xctest;
-			remoteRef = 3EEF3A56222288B600F8B05C /* PBXContainerItemProxy */;
+			remoteRef = 3E7CAEB4236D8213007582CA /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
